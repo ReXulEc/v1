@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import App from './App.vue'
-import './registerServiceWorker'
 import router from './router'
-import "@/assets/styles/main.css";
+import store from './store'
+import 'windi.css'
 
 Vue.config.productionTip = false
 
 new Vue({
   router,
-  render: h => h(App)
+  store,
+  render: function (h) { return h(App) }
 }).$mount('#app')
