@@ -23,35 +23,35 @@
         </div>
           <div class="mt-5">
             <p class="text-xl mb-1">My Projects</p>
-            <div class="flex">
-              <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
+            <div class="md:flex flex-none">
+              <div class="bg-gray-800 p-5 rounded-2xl md:mr-5 md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[0].to">{{ links[0].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[0].bio }}</p>
               </div>
-              <div class="bg-gray-800 p-5 rounded-2xl w-100">
+              <div class="bg-gray-800 p-5 rounded-2xl md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[1].to">{{ links[1].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[1].bio }}</p>
               </div>
             </div>
 
-            <div class="flex mt-2">
-              <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
+            <div class="md:flex flex-none mt-2">
+              <div class="bg-gray-800 p-5 rounded-2xl md:mr-5 md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[2].to">{{ links[2].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[2].bio }}</p>
               </div>
-              <div class="bg-gray-800 p-5 rounded-2xl w-100">
+              <div class="bg-gray-800 p-5 rounded-2xl md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[3].to">{{ links[3].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[3].bio }}</p>
               </div>
             </div>
           </div>
 
-            <div class="flex mt-2">
-              <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
+            <div class="md:flex flex-none md:mt-2">
+              <div class="bg-gray-800 p-5 rounded-2xl md:mr-5 md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[4].to">{{ links[4].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[4].bio }}</p>
               </div>
-              <div class="bg-gray-800 p-5 rounded-2xl w-100">
+              <div class="bg-gray-800 p-5 rounded-2xl md:w-100 w-75 mb-2">
                 <a class="text-lg" v-bind:href="links[5].to">{{ links[5].name }}</a>
                 <p class="text-gray-400 text-sm break-words">{{ links[5].bio }}</p>
               </div>

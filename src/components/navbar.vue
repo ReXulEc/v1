@@ -8,12 +8,12 @@
         <router-link class="text-xl sm:text-2xl font-thin pollyRounded tracking-tighter" to="/">ReXulEc</router-link>
       </div>
       <div class="hidden sm:flex items-center space-x-5">
-        <router-link
-          v-for="(link, index) in links"
-          :key="`link-${index}`"
-          class="text-lg font-bold"
-          :to="link.to"
-        >{{ link.name }}</router-link>
+      <a
+        v-for="(link, index) in links"
+        :key="`link-${index}`"
+        class="text-lg font-bold w-max"
+        v-bind:href="link.to"
+      >{{ link.name }}</a>
       </div>
       <div class="sm:hidden flex items-center space-x-3">
         <div @click="showMenu()" class="text-lg font-bold md:hidden">
@@ -22,12 +22,12 @@
       </div>
     </div>
     <div class="grid mt-4 w-full items-center space-y-2 rounded-b-md" v-if="menu">
-      <router-link
+      <a
         v-for="(link, index) in links"
         :key="`link-${index}`"
         class="text-lg font-bold w-max"
-        :to="link.to"
-      >{{ link.name }}</router-link>
+        v-bind:href="link.to"
+      >{{ link.name }}</a>
     </div>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
       links: [
         {
           name: "Donate",
-          to: "/#donate",
+          to: "https://repeatpay.ga/rexulec",
         },
         {
           name: "Blog",
