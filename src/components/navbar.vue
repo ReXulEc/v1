@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full p-4 flex flex-col items-center backdrop-filter backdrop-blur-md shadow-gray-50 bg-gray-900 text-gray-50"
+    class="w-full p-4 flex flex-col items-center bg-gray-900 text-gray-50"
   >
     <div class="flex items-center md:w-9/12 w-full justify-between">
       <div class="flex items-center space-x-4">
