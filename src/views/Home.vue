@@ -26,34 +26,34 @@
             <div class="flex">
               <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
                 <a class="text-lg" v-bind:href="links[0].to">{{ links[0].name }}</a>
-                <p>{{ links[0].bio }}</p>
+                <p class="text-gray-400 text-sm break-words">{{ links[0].bio }}</p>
               </div>
               <div class="bg-gray-800 p-5 rounded-2xl w-100">
                 <a class="text-lg" v-bind:href="links[1].to">{{ links[1].name }}</a>
-                <p>{{ links[1].bio }}</p>
+                <p class="text-gray-400 text-sm break-words">{{ links[1].bio }}</p>
               </div>
             </div>
 
             <div class="flex mt-2">
               <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
-                <a class="text-lg" v-bind:href="links[0].to">{{ links[2].name }}</a>
-                <p class="break-all">{{ links[2].bio }}</p>
+                <a class="text-lg" v-bind:href="links[2].to">{{ links[2].name }}</a>
+                <p class="text-gray-400 text-sm break-words">{{ links[2].bio }}</p>
               </div>
               <div class="bg-gray-800 p-5 rounded-2xl w-100">
-                <a class="text-lg" v-bind:href="links[1].to">{{ links[3].name }}</a>
-                <p>{{ links[3].bio }}</p>
+                <a class="text-lg" v-bind:href="links[3].to">{{ links[3].name }}</a>
+                <p class="text-gray-400 text-sm break-words">{{ links[3].bio }}</p>
               </div>
             </div>
           </div>
 
             <div class="flex mt-2">
               <div class="bg-gray-800 p-5 rounded-2xl mr-5 w-100">
-                <a class="text-lg" v-bind:href="links[0].to">{{ links[4].name }}</a>
-                <p class="break-all">{{ links[4].bio }}</p>
+                <a class="text-lg" v-bind:href="links[4].to">{{ links[4].name }}</a>
+                <p class="text-gray-400 text-sm break-words">{{ links[4].bio }}</p>
               </div>
               <div class="bg-gray-800 p-5 rounded-2xl w-100">
                 <a class="text-lg" v-bind:href="links[5].to">{{ links[5].name }}</a>
-                <p>{{ links[3].bio }}</p>
+                <p class="text-gray-400 text-sm break-words">{{ links[5].bio }}</p>
               </div>
             </div>
 
@@ -66,42 +66,42 @@
 import navbar from '@/components/navbar.vue'
 
 export default {
-    data() {
-    return {
-      links: [
-        {
-          name: "RepeatPay/RepeatPay",
-          bio: "🎯 Innovative payment solution for your websites.",
-          to: "https://github.com/RepeatPay/RepeatPay",
-        },
-        {
-          name: "v1",
-          bio: "🎄 A simple portfolio website made by using Vue.js",
-          link: "https://github.com/ReXulEc/v1",
-        },
-        {
-          name: "LightLogin",
-          bio: "🔑 Customizable Basic Login Form For Libraries, Business... With 💖 and PyQt5.",
-          link: "https://github.com/ReXulEc/LightLogin",
-        },
-        {
-          name: "eba-canli-ders-bot",
-          bio: "✨Eba canlı derslerinize otomatik olarak girer",
-          link: "https://github.com/ReXulEc/eba-canli-ders-bot",
-        },
-        {
-          name: "Esp8266-Telegram-Panic-Button",
-          bio: "🥨 This is a portable panic button.",
-          link: "https://github.com/ReXulEc/Esp8266-Telegram-Panic-Button",
-        },
-        {
-          name: "craftrise-api",
-          bio: "🎮 Craftrise'dan kullanıcıları çekebileceğiniz bir Api!",
-          link: "https://github.com/ReXulEc/craftrise-api",
-        },
-      ],
-    };
-  },
+data() {
+  return {
+    links: [
+      {
+        name: "RepeatPay/RepeatPay",
+        bio: "🎯 Innovative payment solution for your websites.",
+        to: "https://github.com/RepeatPay/RepeatPay",
+      },
+      {
+        name: "v1",
+        bio: "🎄 A simple portfolio website made by using Vue.js",
+        to: "https://github.com/ReXulEc/v1",
+      },
+      {
+        name: "LightLogin",
+        bio: "🔑 Customizable Basic Login Form For Libraries, Business... With 💖 and PyQt5.",
+        to: "https://github.com/ReXulEc/LightLogin",
+      },
+      {
+        name: "eba-canli-ders-bot",
+        bio: "✨Eba canlı derslerinize otomatik olarak girer",
+        to: "https://github.com/ReXulEc/eba-canli-ders-bot",
+      },
+      {
+        name: "Esp8266-Telegram-Panic-Button",
+        bio: "🥨 This is a portable panic button.",
+        to: "https://github.com/ReXulEc/Esp8266-Telegram-Panic-Button",
+      },
+      {
+        name: "craftrise-api",
+        bio: "🎮 Craftrise'dan kullanıcıları çekebileceğiniz bir Api!",
+        to: "https://github.com/ReXulEc/craftrise-api",
+      },
+    ],
+  };
+},
   components: {
     navbar
   }
