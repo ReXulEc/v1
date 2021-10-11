@@ -1,19 +1,3 @@
-# v1
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<div align="center">
+<h1>v1 | rexulec.com</h1>
+<img alt="demo" src="https://i.hizliresim.com/4bmnuku.jpg"></img>
