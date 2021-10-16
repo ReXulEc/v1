@@ -12,7 +12,7 @@
                <p></p>
                <p class="text-sm text-gray-400">
                  Hi! My name is Mert. I am 15-year-old dev from Turkey.
-                 I built web apps using Vue.js, WindiCss and React.js.
+                 I built web apps using Vue.js, WindiCss, React and Ejs
                </p>
             </div>
           </div>
