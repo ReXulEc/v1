@@ -6,8 +6,7 @@
           <div class="flex h-screen items-center h-50 w-full">
             
             <div class="">
-            <p class="md:text-5xl text-gray-100 inter700">rexulec</p>
-               <p></p>
+            <p class="md:text-5xl text-3xl text-gray-100 inter700">rexulec</p>
                <p class="text-lg text-gray-400 mt-2">
                  15-year-old <b>Developer</b> and student<br/>from the Turkey 
                </p>
