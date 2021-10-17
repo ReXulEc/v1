@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-[100vh] justify-items-start bg-black">
     <navbar class="p-4 pt-20"/>
-    <home/>
+    <home class="pt-12 pl-15"/>
   </div>
 </template>
 
