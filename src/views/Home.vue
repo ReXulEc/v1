@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-[100vh] justify-items-start bg-black">
     <navbar class="p-4 pt-20"/>
-    <home class="md:pt-15 md:pl-15 pl-5"/>
+    <home class="md:pt-15 md:pl-15 pt-10 pl-5"/>
     <timeOutput class="md:pl-15 pl-5"/>
   </div>
 </template>
