@@ -12,24 +12,18 @@ import home from '@/components/index.vue'
 import timeOutput from '@/components/time.vue'
 
 export default{
+      metaInfo: {
+      title: 'rexulec.',
+      htmlAttrs: {
+        lang: 'en',
+        amp: true
+      }
+    },
 components: {
   navbar,
   home,
   timeOutput,
   },
-metaInfo() {
-        return { 
-            title: "rexulec.",
-            meta: [
-                { name: 'description', content:  '15-year-old Developer and student from the Turkey'},
-                { property: 'og:title', content: "rexulec. - v1"},
-                { property: 'og:site_name', content: 'rexulec'},
-                {property: 'og:type', content: 'website'},
-                {property: 'og:image', content: 'https://i.hizliresim.com/6j0bvr6.png' },    
-                {name: 'robots', content: 'index,follow'} 
-            ]
-        }
-    }
   }
 </script>
 
