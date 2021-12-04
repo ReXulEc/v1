@@ -1,6 +1,4 @@
-# 345dev.me
-[![CodeFactor](https://www.codefactor.io/repository/github/mehmetali345dev/website/badge)](https://www.codefactor.io/repository/github/mehmetali345dev/website)
-
+# rexulec.com
 My personal portfolio and blog made with Nuxt.js, Vue.js, WindiCSS.
 
 # What it have?
