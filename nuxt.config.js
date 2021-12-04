@@ -4,6 +4,7 @@ import publicRuntimeConfig from './config/publicRuntimeConfig'
 import privateRuntimeConfig from './config/privateRuntimeConfig'
 
 export default {
+  buildDir: 'nuxt-dist',
   rootDir: './',
   srcDir: 'src',
   target: 'static',
