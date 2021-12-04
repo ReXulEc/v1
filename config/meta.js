@@ -20,17 +20,17 @@ export default {
     {
       hid: 'twitter:site',
       name: 'twitter:site',
-      content: '@AnakinS07677978',
+      content: '@rexulec',
     },
     {
       hid: 'twitter:creator',
       name: 'twitter:creator',
-      content: '@AnakinS07677978',
+      content: '@rexulec',
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: '345dev.me',
+      content: 'rexulec.',
     },
     {
       hid: 'twitter:description',
@@ -46,7 +46,7 @@ export default {
     {
       hid: 'og:title',
       name: 'og:title',
-      content: 'Mehmetali345Dev',
+      content: 'rexulec.',
     },
     {
       hid: 'og:type',
@@ -56,7 +56,7 @@ export default {
     {
       hid: 'og:site_name',
       name: 'og:site_name',
-      content: '345dev.me',
+      content: 'rexulec.',
     },
     {
       hid: 'og:description',
@@ -66,7 +66,7 @@ export default {
     {
       hid: 'og:image',
       name: 'og:image',
-      content: 'https://345dev.me/icon.png',
+      content: 'https://rexulec.com/icon.png',
     },
     /* Others */
     {
