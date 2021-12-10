@@ -40,7 +40,7 @@
     </div>
   </div>
   <div v-else class="w-full bg-gray-900 bg-opacity-30 p-4 rounded-md">
-    <h1 class="font-bold text-xl">Nothing is playing</h1>
+    <h1 class="font-bold text-sm">Nothing is playing on Spotify.</h1>
   </div>
 </template>
 

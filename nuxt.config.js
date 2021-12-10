@@ -23,9 +23,6 @@ export default {
     '@nuxt/image',
     '@nuxtjs/google-analytics'
   ],
-  googleAnalytics: {
-    id: 'UA-183921946-1'
-},
 
   modules: [
     'nuxt-webfontloader',
