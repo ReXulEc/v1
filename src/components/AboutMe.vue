@@ -11,7 +11,6 @@
     <WidgetDiscord />
     <WidgetSpotify />
     <WidgetWeather />
-    <WidgetContact />
 
   </header>
 </template>

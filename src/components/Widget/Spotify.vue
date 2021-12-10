@@ -60,7 +60,7 @@ export default {
   methods: {
     async fetchInfo() {
       const { data: music } = await this.$axios.get(
-        'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Mehmetali345Dev&api_key=8f397e39b6d189cff1da808c7b971737&format=json&limit=1'
+        'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=rexulec&api_key=a0751ed002984525497d25b8d3099741&format=json&limit=1'
       )
 
       this.spotify = music.recenttracks.track[0]

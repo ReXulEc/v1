@@ -7,16 +7,11 @@
 <!--- thx mehmetali for fixing bugs lmao --->
 
 <div class="bg-gray-900 bg-opacity-30 p-4 rounded-md" v-else>
-  <div class="flex font-bold text-lg">
-    It's currently {{ weather.main.temp }}°K 
-    <div class="flex text-sm font-light text-gray-400">
-      {{ weather.weather[0].description }}
-    </div>
-    <div class="flex ml-2">
-      <p> on Izmir.</p>
+  <div class="font-bold text-lg">
+    It's currently {{ Number.parseFloat(weather.main.temp-273).toFixed(2) }}°C||{{ weather.weather[0].description }} on Izmir.
     </div>
   </div>
-</div>
+
 
 </template>
 

@@ -53,23 +53,23 @@ export default {
       repos: [],
       projects: [
         {
-          title: '345 Launcher',
-          image: 'https://i.vgy.me/4oVLsP.png',
-          description: 'Lightweight and advanced Minecraft Launcher',
-          link: 'https://github.com/mehmetali345dev/345-launcher',
+          title: 'Reponse App',
+          image: 'https://i.imgur.com/nF4KqhV.png',
+          description: 'A messaging app for everyone!',
+          link: 'https://reponse.live/',
         },
         {
           title: 'RepeatPay',
           image: 'https://repeatpay.ga/icon.png',
           description:
-            'New open-source donate system for community. Easy, fast and secure.',
-          link: 'https://repeatpay.ga',
+          'New open-source donate system for community. Easy, fast and secure.',
+          link: 'https://repeatpay.ga/',
         },
         {
-          title: 'mehmetali345.xyz',
-          image: 'https://mehmetali345.xyz/icon.png',
-          description: 'My personal portfolio made by NuxtJS and WindiCSS',
-          link: '/',
+          title: 'CodAre',
+          image: 'https://i.imgur.com/ald17Bg.png',
+          description: 'A code sharing community on discord.',
+          link: 'https://codare.fun/',
         },
       ],
     }
@@ -85,17 +85,17 @@ export default {
   fetchOnServer: false,
   async fetch() {
     const { data: repos } = await this.$axios.get(
-      'https://api.github.com/users/mehmetali345dev/repos?per_page=100'
+      'https://api.github.com/users/rexulec/repos?per_page=100'
     )
     this.repos = repos
       ?.filter((repo) => repo.fork === false)
       ?.sort((a, b) => b?.stargazers_count - a?.stargazers_count)
   },
   head() {
-    const title = 'My projects'
+    const title = 'rexulec. | projects'
     const description =
       'You can see my projects, works and repos from here.'
-    const href = `https://345dev.me/projects`
+    const href = `https://rexulec.com/projects`
     const object = {
       title,
       meta: [
