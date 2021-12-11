@@ -15,13 +15,13 @@
   </div>
 
   <div v-else class="w-full">
-    <div class="bg-gray-900 grid bg-opacity-30 flex p-4 rounded-md">
+    <div class="bg-gray-800 grid bg-opacity-30 flex p-4 rounded-md">
       <div class="flex space-x-2 items-center">
         <img
           :src="`https://cdn.discordapp.com/avatars/709376748206293002/${this.lanyard.discord_user.avatar}`"
           class="w-9 h-9 rounded-full"
           alt=""
-          v-tooltip="'thx mehmetali235dev for everything!'"
+          v-tooltip="'thx 345dev for everything!'"
         />
         <div
           :class="`h-3 w-3 rounded-full flex-shrink-0 ${getDiscordStatus}`"

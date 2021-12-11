@@ -107,7 +107,7 @@ export default {
         {
           hid: 'keywords',
           name: 'keywords',
-          content: `mehmetali345, mehmetali345 blog, blog, teknoloji, vue, yazılım, discord, mehmetali_345, gönderi`,
+          content: `projects, rexulec, github`,
         },
         // Open-Graph
         {

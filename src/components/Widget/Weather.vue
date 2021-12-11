@@ -1,12 +1,12 @@
 <template>
   <div
     v-if="$fetchState.pending"
-    class="w-24 h-4 bg-gray-900 bg-opacity-30 animate-pulse"
+    class="w-24 h-4 bg-gray-800 bg-opacity-30 animate-pulse"
   ></div>
 
 <!--- thx mehmetali for fixing bugs lmao --->
 
-<div class="bg-gray-900 bg-opacity-30 p-4 rounded-md" v-else>
+<div class="bg-gray-800 bg-opacity-30 p-4 rounded-md" v-else>
   <div class="font-bold text-lg">
     It's currently {{ Number.parseFloat(weather.main.temp-273).toFixed(2) }}°C||{{ weather.weather[0].description }} on Izmir.
     </div>
