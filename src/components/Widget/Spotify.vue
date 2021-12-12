@@ -5,8 +5,8 @@
   >
     <img class="w-16 h-16 rounded-md mr-4 bg-gray-900 outline-none" alt="" />
     <div class="flex flex-col justify-center space-y-3">
-      <h1 class="h-4 w-16 bg-gray-900"></h1>
-      <h1 class="h-4 w-28 bg-gray-900"></h1>
+      <h1 class="h-4 w-16 bg-gray-800"></h1>
+      <h1 class="h-4 w-28 bg-gray-800"></h1>
     </div>
   </div>
 
@@ -14,8 +14,7 @@
     <div
       class="
         bg-green-500
-        dark:bg-green-500
-        mt-2
+        dark:bg-green-600
         bg-opacity-30
         flex
         p-4
@@ -24,7 +23,7 @@
     >
       <div class="flex mt-2">
         <img
-          class="w-16 h-16 rounded-md mr-4 bg-gray-900 outline-none"
+          class="w-16 h-16 rounded-md mr-4 bg-gray-800 outline-none"
           alt=""
           :src="this.spotify.image[1]['#text']"
         />
@@ -39,7 +38,7 @@
       </div>
     </div>
   </div>
-  <div v-else class="w-full bg-gray-900 bg-opacity-30 p-4 rounded-md">
+  <div v-else class="w-full bg-gray-800 bg-opacity-30 p-4 rounded-md">
     <h1 class="font-bold text-sm">Nothing is playing on Spotify.</h1>
   </div>
 </template>

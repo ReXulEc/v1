@@ -6,9 +6,14 @@
 
 <!--- thx mehmetali for fixing bugs lmao --->
 
-<div class="bg-gray-800 bg-opacity-30 p-4 rounded-md" v-else>
-  <div class="font-bold text-lg">
+<div class="flex bg-gray-800 bg-opacity-30 p-4 rounded-md" v-else>
+  <div class="flex font-bold md:text-lg">
+    <div class="grid content-center">
+      <img class="" height="72" width="72" :src=icons() alt="">
+    </div>
+    <div class="grid ml-2 content-center">
     It's currently {{ Number.parseFloat(weather.main.temp-273).toFixed(2) }}°C||{{ weather.weather[0].description }} on Izmir.
+    </div>
     </div>
   </div>
 
@@ -28,5 +33,11 @@ export default {
     )
     this.weather = weather
   },
+  methods: {
+    icons() {
+      const imgsrc = '/weatherIcons/' + this.weather.weather[0].icon + '.png'
+      return imgsrc
+    }
+  }
 }
 </script>

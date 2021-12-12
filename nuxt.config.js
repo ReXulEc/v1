@@ -1,14 +1,18 @@
 import head from './config/meta'
-import sitemap from './config/sitemap'
 import publicRuntimeConfig from './config/publicRuntimeConfig'
 import privateRuntimeConfig from './config/privateRuntimeConfig'
 
 export default {
+  server: {
+    port: 8000,
+    host: '0.0.0.0',
+  },
   rootDir: './',
   srcDir: 'src',
   target: 'static',
   ssr: true,
   components: true,
+
   publicRuntimeConfig,
 
   privateRuntimeConfig,
@@ -31,7 +35,7 @@ export default {
     'nuxt-helmet',
     '@nuxt/content',
     '@nuxtjs/robots',
-    ['@nuxtjs/sitemap', sitemap],
+    ['@nuxtjs/sitemap'],
   ],
 
   // Loads all of css files from one rootscss file
@@ -57,7 +61,6 @@ export default {
     liveEdit: false,
 
     // Specifies blog posts' directory
-    dir: '../posts',
 
     markdown: {
       prism: {

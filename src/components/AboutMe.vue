@@ -11,7 +11,6 @@
     <WidgetDiscord />
     <WidgetSpotify />
     <WidgetWeather />
-
   </header>
 </template>
 
@@ -20,12 +19,4 @@ export default {}
 </script>
 
 <style>
-@media screen and (max-device-width: 950px) {
-  .profile {
-    @apply grid;
-  }
-  .about {
-    @apply mt-2 ml-0;
-  }
-}
 </style>
