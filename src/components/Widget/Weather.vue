@@ -29,7 +29,7 @@ export default {
   },
   async fetch() {
     const { data: weather } = await this.$axios.get(
-      'https://api.openweathermap.org/data/2.5/weather?q=Izmir&appid=e592e6ff1472a5177206326a12567fe4&metric=units'
+      'https://api.openweathermap.org/data/2.5/weather?q=Izmir&appid=e592e6ff1472a5177206326a12567fe4&units=metric'
     )
     this.weather = weather
   },
