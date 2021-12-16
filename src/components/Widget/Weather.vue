@@ -12,7 +12,7 @@
       <img class="" height="72" width="72" :src=icons() alt="">
     </div>
     <div class="grid ml-2 content-center">
-    It's currently {{ Number.parseFloat(weather.main.temp-273).toFixed(2) }}°C||{{ weather.weather[0].description }} on Izmir.
+    It's currently {{ weather.main.temp }}°C||{{ weather.weather[0].description }} on Izmir.
     </div>
     </div>
   </div>
@@ -29,7 +29,7 @@ export default {
   },
   async fetch() {
     const { data: weather } = await this.$axios.get(
-      'https://api.openweathermap.org/data/2.5/weather?q=Izmir&appid=e592e6ff1472a5177206326a12567fe4'
+      'https://api.openweathermap.org/data/2.5/weather?q=Izmir&appid=e592e6ff1472a5177206326a12567fe4&metric=units'
     )
     this.weather = weather
   },
