@@ -18,7 +18,7 @@
     <div class="bg-gray-800 grid bg-opacity-30 flex p-4 rounded-md">
       <div class="flex space-x-2 items-center">
         <img
-          :src="`https://cdn.discordapp.com/avatars/709376748206293002/${this.lanyard.discord_user.avatar}`"
+          :src="`https://cdn.discordapp.com/avatars/921055019334258758/${this.lanyard.discord_user.avatar}`"
           class="w-9 h-9 rounded-full"
           alt=""
           v-tooltip="'thx 345dev for everything!'"
@@ -141,7 +141,7 @@ export default {
         JSON.stringify({
           op: 2,
           d: {
-            subscribe_to_id: '709376748206293002',
+            subscribe_to_id: '921055019334258758',
           },
         })
       )
