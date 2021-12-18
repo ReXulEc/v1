@@ -1,4 +1,5 @@
 import head from './config/meta'
+import sitemap from './config/sitemap'
 import publicRuntimeConfig from './config/publicRuntimeConfig'
 import privateRuntimeConfig from './config/privateRuntimeConfig'
 
@@ -35,7 +36,7 @@ export default {
     'nuxt-helmet',
     '@nuxt/content',
     '@nuxtjs/robots',
-    ['@nuxtjs/sitemap'],
+    ['@nuxtjs/sitemap', sitemap],
   ],
 
   // Loads all of css files from one rootscss file
