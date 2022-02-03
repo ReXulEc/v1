@@ -1,39 +1,43 @@
-# rexulec.com
-A open-source portfolio website for developers!
-
-***
-
-## Getting Started
-
-Write these command CMD or Terminal to install modules.
- - With Yarn: ```yarn```
- - With NPM: ```npm install```
-
-### Then..
-Write these command CMD or Terminal
-
- - With Yarn: ```yarn dev```
- - With NPM: ```npm run dev```
-
-For build and compile:
-
- - With Yarn: ```yarn generate (or yarn build)```
- - With NPM: ```npm run generate or (npm run build)```
+### 💦 Reponse.app
+>  The official website of Reponse!
 
 
-and open [youripadress:3000](http://youripadress:3000) on your browser and your app is ready.
+>  This project is completely open source. So you can use it wherever you want
 
-***
+<p align="center">
+  <img src="https://api.netlify.com/api/v1/badges/ecb2429b-4839-4076-adef-4ce7d1190315/deploy-status" alt="Deploy status" />
 
-### Q/A
-**How can i find my ip address?**
-- Open 'Cmd' -> write 'ipconfig' ->  And look for your IPv4 address
+  <img src="https://app.codacy.com/project/badge/Grade/aa195e605de14ddbbdf9b25aaa0f9512" alt="Codacy code quality" />
+  <p align="center">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
+</p>
 
-**How can i create Last.fm api key?**
-- You can create api account [right there!](https://www.last.fm/api/account/create)
+#
 
-***
+### ✨ Getting Started
 
+First, run the development server:
 
-# Special Thanks
-to [MehmetAli345Dev](https://345dev.me)(for nuxt colors, dark/light mode etc..), [Eggsy](https://github.com/eggsy), [Ven](https://ven.earth) and [Tarık Coşkun](https://github.com/tarikcoskun).
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+#
+
+### 🎄 Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+-  [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+-  [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+#
+
+### 🙏 Thanks
+
+[Nuxt.js](https://nuxtjs.org), [WindiCSS](https://github.com/windicss/windicss), [Tailwind CSS](https://github.com/tailwindcss/tailwindcss), amazing module authors and contributors of this project!

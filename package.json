@@ -1,41 +1,33 @@
 {
-  "name": "rexulec.com",
-  "version": "1.0.0",
+  "name": "v1",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
-    "lint": "yarn lint:js"
+    "dev": "next dev",
+    "build": "next build && next export",
+    "lint": "next lint",
+    "start": "node server.js"
   },
   "dependencies": {
-    "@guillaumebriday/vue-scroll-progress-bar": "^1.0.0",
-    "@nuxt/content": "^1.15.1",
-    "@nuxtjs/axios": "^5.13.6",
-    "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/sitemap": "^2.4.0",
-    "core-js": "^3.19.2",
-    "nuxt": "^2.15.7",
-    "nuxt-helmet": "^2.0.1",
-    "nuxt-webfontloader": "^1.1.0",
-    "prism-themes": "^1.9.0",
-    "sass": "^1.44.0",
-    "sass-loader": "10.1",
-    "v-tooltip": "^3.0.0-beta.1",
-    "vue-animate-onscroll": "^1.0.8",
-    "vue-disqus": "^4.0.1"
+    "autoprefixer": "^10.4.2",
+    "buffer": "^6.0.3",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "markdown-to-jsx": "^7.1.6",
+    "next": "12.0.8",
+    "path": "^0.12.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "react-markdown": "^8.0.0",
+    "remark-gfm": "^3.0.1",
+    "tailwindcss": "^3.0.15"
   },
   "devDependencies": {
-    "@nuxt/image": "^0.6.0",
-    "@nuxtjs/color-mode": "^2.1.1",
-    "@nuxtjs/dotenv": "^1.4.1",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/moment": "^1.6.1",
-    "@windicss/plugin-scrollbar": "^1.2.3",
-    "nuxt-windicss": "^2.0.12",
-    "prettier": "^2.5.0"
+    "@types/node": "^17.0.12",
+    "@types/react": "17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.8",
+    "typescript": "4.5.4"
   }
 }
