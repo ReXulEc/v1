@@ -29,11 +29,10 @@ return (
       <div className="md:w-2/3  text-gray-200">
         <p className="text-3xl font-semibold">About Me</p>
         <p className="mt-4 md:w-11/12">
-          I've been playing with web development since 2018. Over the years, I've been learning more and more
-          technologies.
+          I've been playing with development since 2019 ({ new Date().getFullYear() - 2019 } years) and although I am a full stack developer, I like front-end more.
         </p>
         <p className="mt-4 md:w-11/12">
-          I mainly use Node based technologies. On the right, you can see a couple of my favourite techhnologies, which
+          I mainly use Node based technologies. On the right, you can see a couple of my favourite technologies, which
           are also the ones I use in most of my projects.
         </p>
       </div>
