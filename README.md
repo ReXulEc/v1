@@ -1,13 +1,7 @@
-### 💦 Reponse.app
->  The official website of Reponse!
-
-
+### 💦 rexulec.com
 >  This project is completely open source. So you can use it wherever you want
 
 <p align="center">
-  <img src="https://api.netlify.com/api/v1/badges/ecb2429b-4839-4076-adef-4ce7d1190315/deploy-status" alt="Deploy status" />
-
-  <img src="https://app.codacy.com/project/badge/Grade/aa195e605de14ddbbdf9b25aaa0f9512" alt="Codacy code quality" />
   <p align="center">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
 </p>
 
