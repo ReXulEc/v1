@@ -2,7 +2,7 @@ import { FC } from "react";
 
 export const Navbar: FC = () => {
   return (
-    <div className="flex items-center justify-center mt-5">
+    <div className="flex items-center justify-center sticky p-5 top-0 backdrop-blur-lg">
       <div className="flex md:w-7/12 w-10/12 justify-between">
         <div className="flex items-center">
           <p className="text-2xl font-bold text-gray-200">
