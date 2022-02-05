@@ -13,7 +13,7 @@ export const Navbar: FC = () => {
           <a href="" className="mr-3">
             Projects
           </a>
-          <a href="mailto:hi@rexulec.com" className="px-5 p-2 rounded-full bg-gray-600">
+          <a href="mailto:hi@rexulec.com" className="px-5 p-2 rounded-full bg-[#1f1f1f]">
             Contact
           </a>
         </div>
