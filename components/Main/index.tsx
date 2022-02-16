@@ -126,13 +126,14 @@ return (
       </div>
     </div>
   </div>
+</div>
+);
+};
 
+/*
   <div className="flex justify-center">
     <div className="w-7/12 py-10">
       <p>s</p>
     </div>
   </div>
-
-</div>
-);
-};
+*/

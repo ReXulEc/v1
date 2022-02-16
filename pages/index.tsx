@@ -1,14 +1,16 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import { HomePage } from "@components/Home";
+import { Main } from "@components/Main";
+import { Navbar } from "@components/Navbar";
+import { Footer } from "@components/Footer";
 import { Header } from "@components/Header";
-const Home: NextPage = () => {
+
+const Home = () => {
   return (
-    <div >
-      <HomePage />
-      <Header title="Home"/>
-    </div>
+      <div>
+        <Header title="Home"/>
+        <Navbar />
+        <Main />
+        <Footer />
+      </div>
   );
 };
 
