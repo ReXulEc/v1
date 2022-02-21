@@ -1,7 +1,7 @@
 ### 💦 rexulec.com
 >  This project is completely open source. So you can use it wherever you want
 
-![Screenshot from 2022-02-18 21-21-40-modified](https://user-images.githubusercontent.com/52077360/154740927-5d162085-ace4-42d8-9d3f-c20f97685a86.png)
+![Preview](https://user-images.githubusercontent.com/52077360/154740927-5d162085-ace4-42d8-9d3f-c20f97685a86.png)
 
 <p align="center">
   <p align="center">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
@@ -26,6 +26,22 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+#
+
+### 💞 Deploying
+
+#### For Vercel(recommended):
+- Build command: ```npm run build``` or ```yarn buid```
+- Output dir: ```out```
+- Install command: ```yarn install```
+- Development command: ```nuxt```
+
+#### For Netlify:
+- Base directory:
+- Build command: ```npm run build``` or ```yarn buid```
+- Publish directory: ```./out```
+- Environment variables: Set ```NETLIFY_NEXT_PLUGIN_SKIP``` value to ```true``` if you getting errors.
 
 #
 
