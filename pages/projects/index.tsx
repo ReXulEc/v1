@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Header } from "@components/Header";
 import { Navbar } from "@components/Navbar";
 
-const Home: NextPage = () => {
+const Projects = () => {
   return (
     <div className="">
     <Header title="Projects"/>
@@ -78,4 +78,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default Projects;
