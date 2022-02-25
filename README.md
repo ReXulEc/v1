@@ -31,17 +31,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ### 💞 Deploying
 
-#### For Vercel(recommended):
-- Build command: ```npm run build``` or ```yarn buid```
-- Output dir: ```out```
-- Install command: ```yarn install```
-- Development command: ```nuxt```
-
-#### For Netlify:
+#### For Netlify(recommended):
 - Base directory:
 - Build command: ```npm run build``` or ```yarn buid```
 - Publish directory: ```./out```
 - Environment variables: Set ```NETLIFY_NEXT_PLUGIN_SKIP``` value to ```true``` if you getting errors.
+
+#### For Vercel:
+- Build command: ```npm run build``` or ```yarn build```
+- Output dir: ```out```
+- Install command: ```yarn install```
+- Development command: ```nuxt```
 
 #
 
