@@ -1,6 +1,6 @@
 import { Header } from "@components/Header";
 import { Navbar } from "@components/Navbar";
-const Projects = () => {
+const index = function(){
   return (
     <div className="">
     <Header title="Projects"/>
@@ -74,4 +74,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default index;
