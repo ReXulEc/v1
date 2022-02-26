@@ -10,8 +10,8 @@ const index = function(){
         <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-9/12 py-2">
             {CONFIG.PROJECTS.map((r) => (
-                <div className="border-2 border-[#1f1f1f] rounded-xl text-gray-200">
-                <div className="border-b-2 border-[#1f1f1f] rounded-t-xl p-4 text-gray-200">
+                <div className="transition hover:scale-105 border-2 border-[#1f1f1f] group hover:border-[#242424] hover:bg-[#1f1f1f] rounded-xl text-gray-200">
+                <div className="border-b-2 border-[#1f1f1f] group-hover:border-[#242424] rounded-t-xl p-4 text-gray-200">
                     <img src={r.img} alt="ReponseLogo" className="w-1/4 rounded-3xl"/>
                     <div className="mt-2">
                         <p className="font-semibold text-xl">{r.title}</p>
