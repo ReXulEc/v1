@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "axios": "^0.26.0",
     "buffer": "^6.0.3",
     "express": "^4.17.2",
     "fs": "^0.0.1-security",
