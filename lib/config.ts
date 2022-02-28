@@ -4,7 +4,7 @@ export const CONFIG = {
       {
         title: "Reponse App",
         description: "A new way to chat with your communities and friends.",
-        role: "Founder & Creator",
+        role: "Founder & Front-End Developer",
         what: "I founded Reponse back in 2021 to make comminication more easy than ever!",
         img: "/projects/reponse.png",
         linkto: "https://reponse.app"
@@ -20,7 +20,7 @@ export const CONFIG = {
       {
         title: "RepeatPay",
         description: "Innovative payment solution for your websites.",
-        role: "Founder & Creator",
+        role: "Founder & Developer",
         what: "I founded RepeatPay back in 2021 to make open-source donating app for your donate pages and etc..",
         img: "/projects/repeatpay.png",
         linkto: "https://repeatpay.ga"
