@@ -16,7 +16,7 @@ export const Header:FC<IProps> = function({title}){
 
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="https://rexulec.com"/>
-        <meta property="og:title" content="ReXulEc"/>
+        <meta property="og:title" content="rexulec | mert doğu"/>
         <meta property="og:description" content="I'm a full stack developer with over 3 years of experience, and a student who spends most all of his free time doing open source projects/websites/softwares."/>
         <meta property="og:image" content="https://rexulec.com/icon.png"/>
         <meta property="theme-color" content="#d6cdf9"/>
