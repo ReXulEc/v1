@@ -10,7 +10,7 @@ const index = function(){
     <Header title="Projects"/>
         <Navbar />
         <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-9/12 py-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-9/12 mt-4">
             {CONFIG.MAINPROJECTS.map((r) => (
                 <div className="transition hover:scale-105 border-2 border-[#1f1f1f] group hover:border-[#242424] hover:bg-[#1f1f1f] rounded-xl text-gray-200">
                     <a href={r.linkto}>
