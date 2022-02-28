@@ -4,7 +4,10 @@
 ![Preview](https://user-images.githubusercontent.com/52077360/154740927-5d162085-ace4-42d8-9d3f-c20f97685a86.png)
 
 <p align="center">
-  <p align="center">☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
+  <p align="center">☆*: .｡. o(≧▽≦)o .｡.:*☆<br/>
+  <img src="https://app.codacy.com/project/badge/Grade/1762453f0238457b8d8bc3be45a83143"/>
+  <img src="https://api.netlify.com/api/v1/badges/43977a6e-108e-4420-aa3d-13417cf73d5f/deploy-status"/>
+  </p>
 </p>
 
 #
