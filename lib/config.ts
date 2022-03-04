@@ -54,9 +54,5 @@ export const CONFIG = {
     img: string;
     linkto: any;
     view: string;
-<<<<<<< Updated upstream
-  }
-=======
     mode: string;
   }
->>>>>>> Stashed changes
