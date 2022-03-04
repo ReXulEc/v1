@@ -33,7 +33,8 @@ export const CONFIG = {
         description: "🎄 A simple portfolio website made by using React (this website <3)",
         img: "/projects/v1.png",
         linkto: "v1",
-        view: "https://rexulec.com"
+        view: "https://rexulec.com",
+        mode: "1"
       }
     ] as SIDEPROJECTS[],
   };
@@ -53,4 +54,9 @@ export const CONFIG = {
     img: string;
     linkto: any;
     view: string;
+<<<<<<< Updated upstream
   }
+=======
+    mode: string;
+  }
+>>>>>>> Stashed changes
