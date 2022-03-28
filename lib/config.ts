@@ -35,6 +35,14 @@ export const CONFIG = {
         linkto: "v1",
         view: "https://rexulec.com",
         mode: "1"
+      },
+      {
+        title: "v2",
+        description: "🎄 A simple portfolio website made by using React (this website <3)",
+        img: "/projects/v1.png",
+        linkto: "v1",
+        view: "https://rexulec.com",
+        mode: "1"
       }
     ] as SIDEPROJECTS[],
   };
