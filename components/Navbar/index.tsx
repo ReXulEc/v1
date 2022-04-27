@@ -15,10 +15,13 @@ export const Navbar: FC = () => {
         </div>
         <div className="flex items-center text-gray-300">
           <Link href="/projects">
-            <a className="mr-3">
+            <a className="mx-3">
               Projects
             </a>
           </Link>
+          <a href="https://blog.rexulec.com" className="mr-3">
+            Blog
+          </a>
           <a href="mailto:hi@rexulec.com" className="px-5 p-2 transition rounded-full hover:bg-[#262626] bg-[#1f1f1f]">
             Contact
           </a>
