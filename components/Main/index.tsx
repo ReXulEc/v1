@@ -16,7 +16,7 @@ return (
           </p>
           <div className="mt-2 flex text-xl text-gray-400 font-semibold">
             <p className="">I'm a full stack developer with over { new Date().getFullYear() - 2019 } years of
-              experience
+              experience<br />
               And a student who spends most all of his free time doing open source projects/websites/softwares.
             </p>
           </div>
