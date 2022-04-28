@@ -22,6 +22,7 @@ export const Navbar: FC = () => {
           <a href="mailto:hi@rexulec.com" className="px-5 p-2 transition rounded-full hover:bg-[#262626] bg-[#1f1f1f]">
             Contact
           </a>
+          
         </div>
       </div>
     </div>
