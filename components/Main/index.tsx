@@ -13,11 +13,11 @@ return (
         <div className="">
           <p className="flex text-5xl font-bold text-gray-100">Mert Doğu</p>
           <p className="flex text-fuchsia-400 text-opacity-65 text-xl font-medium">
-            Full Stack Developer
+            Front-end Developer
           </p>
           <div className=" text-lg text-gray-500 font-normal">
             <p className="">
-              I'm a full stack developer with over { new Date().getFullYear() - 2019 } years of
+              I'm a Front-end developer with over { new Date().getFullYear() - 2019 } years of
               experience, and a student who spends most all of his free time doing open source projects/websites/softwares.
             </p>
           </div>
